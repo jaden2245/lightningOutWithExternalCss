@@ -7,7 +7,7 @@
 </style>
 
 <script src="https://marriottintl--dttdev.sandbox.my.salesforce.com/lightning/lightning.out.js"></script>
-<link rel="stylesheet" href="https://jaden2245.github.io/lightningOut/mystyles.css">
+<link rel="stylesheet" href="https://jaden2245.github.io/lightningOutWithExternalCss/mystyles.css">
 
 <div>
     <label for="idSelector">Choose a Case ID:</label>
@@ -28,7 +28,7 @@
     const tokenUrl = 'https://marriottintl--dttdev.sandbox.my.salesforce.com/services/oauth2/token';
     const jwtToken = 'eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOW5pM0MwYlVGamtwS3VXVUFtUEpiQlhmZDhxS1huYWdRTjdDR2tUOUVNZThxdFBUb1k1MW9FSldBeFgxRVZfX2w2WnFDZ1FvakloMzVMRF9qIiwic3ViIjoianVsaXVzLmFkZW5pcmFuQG1hcnJpb3R0LXNwLmNvbS5tZ3BxYS5kdHRkZXYiLCJhdWQiOiJodHRwczovL3Rlc3Quc2FsZXNmb3JjZS5jb20iLCJleHAiOiIxOTA5OTkwMjM2In0.pQNAACTHL8Uktat1K2oK_5ZukbH4UFiu571UD5yQhPwqcoJpT85hniyI6aGwtIzVQ-iPJXTMPvMrC45EjRAJm3yiWpRYoZY65gU2HXwTzi1wFtwEIp1EwmVpuirFIlY6YwIzrwPAXEFS1dIJeIekc6VVfeDbOYI70i6T4kA6VbDtsrF2254lQTOA3vrxiyrIkbmDZYWtf-vAJnIYxjKDbsecH3KbxiFX1t_ce9EEQrJjdY_NdkxGM11Z8AvkxIOWR7tm4sijxlv0V86NQsk7tBwODYf77kWPUZFzmy66spey-KY8H3S2ShjlItLD8I_hfsqMGUvhjzzWzfGp8Vd5rQ'; // Replace with your actual JWT assertion
     const targetElement = document.querySelector("[data-lightning-out]");
-    const externalCssUrl = "https://jaden2245.github.io/lightningOut/mystyles.css";
+    const externalCssUrl = "https://jaden2245.github.io/lightningOutWithExternalCss/mystyles.css";
 
     // Fetch access token for authentication
     async function fetchAccessToken() {
